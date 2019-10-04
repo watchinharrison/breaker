@@ -17,6 +17,17 @@
 		6AE05B5B233EB2F2007B147E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B59233EB2F2007B147E /* LaunchScreen.storyboard */; };
 		6AE05B66233EB2F3007B147E /* Pong2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B65233EB2F3007B147E /* Pong2020Tests.swift */; };
 		6AE05B71233EB2F3007B147E /* Pong2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B70233EB2F3007B147E /* Pong2020UITests.swift */; };
+		6AE05B80233EB41C007B147E /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B7F233EB41C007B147E /* Paddle.swift */; };
+		6AE05B82233EB429007B147E /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B81233EB429007B147E /* Ball.swift */; };
+		6AE05B85233F8AB4007B147E /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B84233F8AB4007B147E /* WaitingForTap.swift */; };
+		6AE05B87233F8AF0007B147E /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B86233F8AF0007B147E /* Playing.swift */; };
+		6AE05B89233F8B08007B147E /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE05B88233F8B08007B147E /* GameOver.swift */; };
+		6AE05B8D233F96D3007B147E /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B8B233F96D3007B147E /* Spark.sks */; };
+		6AE05B8E233F96D3007B147E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B8C233F96D3007B147E /* Assets.xcassets */; };
+		6AE05B93233FDF5D007B147E /* Powerup01.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B8F233FDF5D007B147E /* Powerup01.atlas */; };
+		6AE05B94233FDF5D007B147E /* Powerup04.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B90233FDF5D007B147E /* Powerup04.atlas */; };
+		6AE05B95233FDF5D007B147E /* Powerup03.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B91233FDF5D007B147E /* Powerup03.atlas */; };
+		6AE05B96233FDF5D007B147E /* Powerup02.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6AE05B92233FDF5D007B147E /* Powerup02.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		6AE05B6C233EB2F3007B147E /* Pong2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pong2020UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE05B70233EB2F3007B147E /* Pong2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pong2020UITests.swift; sourceTree = "<group>"; };
 		6AE05B72233EB2F3007B147E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE05B7F233EB41C007B147E /* Paddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		6AE05B81233EB429007B147E /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		6AE05B84233F8AB4007B147E /* WaitingForTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
+		6AE05B86233F8AF0007B147E /* Playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
+		6AE05B88233F8B08007B147E /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		6AE05B8B233F96D3007B147E /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		6AE05B8C233F96D3007B147E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AE05B8F233FDF5D007B147E /* Powerup01.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Powerup01.atlas; sourceTree = "<group>"; };
+		6AE05B90233FDF5D007B147E /* Powerup04.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Powerup04.atlas; sourceTree = "<group>"; };
+		6AE05B91233FDF5D007B147E /* Powerup03.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Powerup03.atlas; sourceTree = "<group>"; };
+		6AE05B92233FDF5D007B147E /* Powerup02.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Powerup02.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +125,9 @@
 		6AE05B49233EB2EF007B147E /* Pong2020 */ = {
 			isa = PBXGroup;
 			children = (
+				6AE05B8A233F9696007B147E /* Particles */,
+				6AE05B83233F8AA4007B147E /* States */,
+				6AE05B7E233EB407007B147E /* Components */,
 				6AE05B4A233EB2EF007B147E /* AppDelegate.swift */,
 				6AE05B4C233EB2EF007B147E /* GameScene.sks */,
 				6AE05B4E233EB2EF007B147E /* Actions.sks */,
@@ -112,6 +137,10 @@
 				6AE05B57233EB2F2007B147E /* Assets.xcassets */,
 				6AE05B59233EB2F2007B147E /* LaunchScreen.storyboard */,
 				6AE05B5C233EB2F2007B147E /* Info.plist */,
+				6AE05B8F233FDF5D007B147E /* Powerup01.atlas */,
+				6AE05B92233FDF5D007B147E /* Powerup02.atlas */,
+				6AE05B91233FDF5D007B147E /* Powerup03.atlas */,
+				6AE05B90233FDF5D007B147E /* Powerup04.atlas */,
 			);
 			path = Pong2020;
 			sourceTree = "<group>";
@@ -132,6 +161,34 @@
 				6AE05B72233EB2F3007B147E /* Info.plist */,
 			);
 			path = Pong2020UITests;
+			sourceTree = "<group>";
+		};
+		6AE05B7E233EB407007B147E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6AE05B7F233EB41C007B147E /* Paddle.swift */,
+				6AE05B81233EB429007B147E /* Ball.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6AE05B83233F8AA4007B147E /* States */ = {
+			isa = PBXGroup;
+			children = (
+				6AE05B84233F8AB4007B147E /* WaitingForTap.swift */,
+				6AE05B86233F8AF0007B147E /* Playing.swift */,
+				6AE05B88233F8B08007B147E /* GameOver.swift */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
+		6AE05B8A233F9696007B147E /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				6AE05B8B233F96D3007B147E /* Spark.sks */,
+				6AE05B8C233F96D3007B147E /* Assets.xcassets */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +296,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE05B56233EB2EF007B147E /* Main.storyboard in Resources */,
+				6AE05B95233FDF5D007B147E /* Powerup03.atlas in Resources */,
 				6AE05B4D233EB2EF007B147E /* GameScene.sks in Resources */,
+				6AE05B96233FDF5D007B147E /* Powerup02.atlas in Resources */,
 				6AE05B58233EB2F2007B147E /* Assets.xcassets in Resources */,
 				6AE05B5B233EB2F2007B147E /* LaunchScreen.storyboard in Resources */,
+				6AE05B8E233F96D3007B147E /* Assets.xcassets in Resources */,
+				6AE05B93233FDF5D007B147E /* Powerup01.atlas in Resources */,
 				6AE05B4F233EB2EF007B147E /* Actions.sks in Resources */,
+				6AE05B8D233F96D3007B147E /* Spark.sks in Resources */,
+				6AE05B94233FDF5D007B147E /* Powerup04.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE05B51233EB2EF007B147E /* GameScene.swift in Sources */,
+				6AE05B87233F8AF0007B147E /* Playing.swift in Sources */,
+				6AE05B85233F8AB4007B147E /* WaitingForTap.swift in Sources */,
+				6AE05B80233EB41C007B147E /* Paddle.swift in Sources */,
+				6AE05B82233EB429007B147E /* Ball.swift in Sources */,
 				6AE05B53233EB2EF007B147E /* GameViewController.swift in Sources */,
 				6AE05B4B233EB2EF007B147E /* AppDelegate.swift in Sources */,
+				6AE05B89233F8B08007B147E /* GameOver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GD4R478J;
 				INFOPLIST_FILE = Pong2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8GD4R478J;
 				INFOPLIST_FILE = Pong2020/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
